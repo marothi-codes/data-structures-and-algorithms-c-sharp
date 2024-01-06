@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClasses", "GenericCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays", "JaggedArrays\JaggedArrays.csproj", "{5B63451E-08A7-46A7-B913-F4E16DA54159}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{48CA08FA-D8A4-4BBC-A97E-97A26400A387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5B63451E-08A7-46A7-B913-F4E16DA54159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B63451E-08A7-46A7-B913-F4E16DA54159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B63451E-08A7-46A7-B913-F4E16DA54159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CA08FA-D8A4-4BBC-A97E-97A26400A387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CA08FA-D8A4-4BBC-A97E-97A26400A387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CA08FA-D8A4-4BBC-A97E-97A26400A387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CA08FA-D8A4-4BBC-A97E-97A26400A387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
