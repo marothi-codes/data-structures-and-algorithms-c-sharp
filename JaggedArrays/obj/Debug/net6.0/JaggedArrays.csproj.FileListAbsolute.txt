@@ -1,0 +1,15 @@
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/bin/Debug/net6.0/JaggedArrays
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/bin/Debug/net6.0/JaggedArrays.deps.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/bin/Debug/net6.0/JaggedArrays.runtimeconfig.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/bin/Debug/net6.0/JaggedArrays.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/bin/Debug/net6.0/JaggedArrays.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/JaggedArrays.csproj.AssemblyReference.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/JaggedArrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/JaggedArrays.AssemblyInfoInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/JaggedArrays.AssemblyInfo.cs
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/JaggedArrays.csproj.CoreCompileInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/JaggedArrays.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/refint/JaggedArrays.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/JaggedArrays.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/JaggedArrays.genruntimeconfig.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/JaggedArrays/obj/Debug/net6.0/ref/JaggedArrays.dll
