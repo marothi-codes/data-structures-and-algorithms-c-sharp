@@ -2,14 +2,15 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args, Exception argumentNullException)
     {
         string[] users = { "John", "Matt" };
         Console.WriteLine(users[0]);
         Console.WriteLine(users[1]);
 
         var myName = new Name("Marothi", "Mabutho", "Mahlake");
-        string fullName, initials;
+        string fullName,
+            initials;
         fullName = myName.ToString();
         initials = myName.Initials();
 
@@ -25,16 +26,17 @@ class Program
             sNum = Console.ReadLine();
             if (!string.IsNullOrEmpty(sNum))
             {
-                num = Int32.Parse(sNum);
+                num = int.Parse(sNum);
                 Console.WriteLine($"The number you've entered is: {num}");
                 Console.WriteLine("Press any key to exit...");
                 Console.ReadKey();
             }
             else
             {
-                throw new ArgumentNullException();
+                throw argumentNullException;
             }
-        } catch(Exception e)
+        }
+        catch (Exception e)
         {
             Console.WriteLine(e.Message);
         }
@@ -43,8 +45,9 @@ class Program
 
 public struct Name
 {
-
-    private string fName, mName, lName;
+    private string fName,
+        mName,
+        lName;
 
     public Name(string first, string middle, string last)
     {
@@ -55,20 +58,20 @@ public struct Name
 
     public string FirstName
     {
-        readonly get { return fName; }
-        set { fName = FirstName; }
+        readonly get => fName;
+        set => fName = FirstName;
     }
 
     public string MiddleName
     {
-        readonly get { return mName; }
-        set { mName = MiddleName; }
+        readonly get => mName;
+        set => mName = MiddleName;
     }
 
     public string LastName
     {
-        readonly get { return lName; }
-        set { lName = LastName; }
+        readonly get => lName;
+        set => lName = LastName;
     }
 
     public override readonly string ToString()
@@ -80,5 +83,4 @@ public struct Name
     {
         return $"{fName[..1]} {mName[..1]} {lName[..1]}";
     }
-
 }
