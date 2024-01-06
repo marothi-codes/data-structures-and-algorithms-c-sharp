@@ -1,0 +1,15 @@
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/bin/Debug/net6.0/GenericClasses
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/bin/Debug/net6.0/GenericClasses.deps.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/bin/Debug/net6.0/GenericClasses.runtimeconfig.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/bin/Debug/net6.0/GenericClasses.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/bin/Debug/net6.0/GenericClasses.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/GenericClasses.csproj.AssemblyReference.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/GenericClasses.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/GenericClasses.AssemblyInfoInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/GenericClasses.AssemblyInfo.cs
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/GenericClasses.csproj.CoreCompileInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/GenericClasses.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/refint/GenericClasses.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/GenericClasses.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/GenericClasses.genruntimeconfig.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/GenericClasses/obj/Debug/net6.0/ref/GenericClasses.dll
