@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "RandomNumberGenerator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RandomNumberGenerator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RandomNumberGenerator.dll": {}
+        }
+      },
       "SequentialAccessCollections/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "RandomNumberGenerator/1.0.0": {
+      "type": "project",
+      "path": "../RandomNumberGenerator/RandomNumberGenerator.csproj",
+      "msbuildProject": "../RandomNumberGenerator/RandomNumberGenerator.csproj"
+    },
     "SequentialAccessCollections/1.0.0": {
       "type": "project",
       "path": "../SequentialAccessCollections/SequentialAccessCollections.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "RandomNumberGenerator >= 1.0.0",
       "SequentialAccessCollections >= 1.0.0"
     ]
   },
@@ -52,6 +68,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/RandomNumberGenerator/RandomNumberGenerator.csproj": {
+              "projectPath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/RandomNumberGenerator/RandomNumberGenerator.csproj"
+            },
             "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SequentialAccessCollections/SequentialAccessCollections.csproj": {
               "projectPath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SequentialAccessCollections/SequentialAccessCollections.csproj"
             }

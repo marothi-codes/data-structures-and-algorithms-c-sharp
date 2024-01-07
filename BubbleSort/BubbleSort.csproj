@@ -9,5 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SequentialAccessCollections\SequentialAccessCollections.csproj" />
+    <ProjectReference Include="..\RandomNumberGenerator\RandomNumberGenerator.csproj" />
   </ItemGroup>
 </Project>

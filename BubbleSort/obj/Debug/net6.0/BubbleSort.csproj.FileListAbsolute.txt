@@ -19,3 +19,5 @@
 /Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/BubbleSort/obj/Debug/net6.0/BubbleSort.pdb
 /Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/BubbleSort/obj/Debug/net6.0/BubbleSort.genruntimeconfig.cache
 /Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/BubbleSort/obj/Debug/net6.0/ref/BubbleSort.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/BubbleSort/bin/Debug/net6.0/RandomNumberGenerator.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/BubbleSort/bin/Debug/net6.0/RandomNumberGenerator.pdb

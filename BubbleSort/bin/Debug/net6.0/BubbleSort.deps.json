@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "BubbleSort/1.0.0": {
         "dependencies": {
+          "RandomNumberGenerator": "1.0.0",
           "SequentialAccessCollections": "1.0.0"
         },
         "runtime": {
           "BubbleSort.dll": {}
+        }
+      },
+      "RandomNumberGenerator/1.0.0": {
+        "runtime": {
+          "RandomNumberGenerator.dll": {}
         }
       },
       "SequentialAccessCollections/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "BubbleSort/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RandomNumberGenerator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

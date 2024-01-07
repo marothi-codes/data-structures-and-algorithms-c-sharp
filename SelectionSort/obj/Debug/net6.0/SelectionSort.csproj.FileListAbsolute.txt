@@ -19,3 +19,5 @@
 /Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SelectionSort/obj/Debug/net6.0/SelectionSort.pdb
 /Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SelectionSort/obj/Debug/net6.0/SelectionSort.genruntimeconfig.cache
 /Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SelectionSort/obj/Debug/net6.0/ref/SelectionSort.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SelectionSort/bin/Debug/net6.0/RandomNumberGenerator.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SelectionSort/bin/Debug/net6.0/RandomNumberGenerator.pdb
