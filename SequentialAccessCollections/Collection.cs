@@ -68,4 +68,34 @@ public class Collection : CollectionBase
         }
     }
 
+    public void ShellSort()
+    {
+        int i, j, inc, temp;
+        inc = 3;
+
+        while (inc > 0)
+        {
+            for (i = 0; i < InnerList.Count; i++)
+            {
+                j = i;
+                temp = (int)InnerList[i];
+
+                while ((j >= inc) && ((int)InnerList[j - inc] > temp))
+                {
+                    InnerList[j] = InnerList[j - inc];
+                    j = j - inc;
+                }
+
+                InnerList[j] = temp;
+            }
+
+            if (inc / 2 != 0)
+                inc = inc / 2;
+            else if (inc == 1)
+                inc = 0;
+            else
+                inc = 1;
+        }
+    }
+
 }
