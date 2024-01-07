@@ -2,7 +2,7 @@
 
 class Program
 {
-    static void Main(string[] args, Exception argumentNullException)
+    static void Main(string[] args)
     {
         string[] users = { "John", "Matt" };
         Console.WriteLine(users[0]);
@@ -33,10 +33,10 @@ class Program
             }
             else
             {
-                throw argumentNullException;
+                throw new ArgumentNullException();
             }
         }
-        catch (Exception e)
+        catch (ArgumentNullException e)
         {
             Console.WriteLine(e.Message);
         }
