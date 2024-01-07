@@ -9,7 +9,7 @@ class Program
         Random random = new(100);
 
         for (int i = 0; i <= 10; i++)
-            numbers.Add(random.Next() * 10);
+            numbers.Add((int)(random.NextDouble() * 100));
 
         foreach (object number in numbers)
             Console.WriteLine(number);
