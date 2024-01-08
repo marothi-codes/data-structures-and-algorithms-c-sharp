@@ -38,4 +38,32 @@ public class Queue<T>
     {
         return _list.Count == 0;
     }
+
+    /// <summary>
+    /// Clears the queue
+    /// </summary>
+    public void Clear()
+    {
+        _list.Clear();
+    }
+
+    /// <summary>
+    /// Counts the number of items in the queue
+    /// </summary>
+    /// <returns></returns>
+    public int Count()
+    {
+        return _list.Count;
+    }
+
+    /// <summary>
+    /// Prints all the items in the queue
+    /// </summary>
+    public void PrintQueue()
+    {
+        foreach (var item in _list)
+        {
+            Console.WriteLine(item);
+        }
+    }
 }
