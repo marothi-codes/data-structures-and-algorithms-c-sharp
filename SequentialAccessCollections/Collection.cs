@@ -148,7 +148,7 @@ public class Collection : CollectionBase
         return false;
     }
 
-    public int BinarySearch (int value)
+    public int BinarySearch(int value)
     {
         int end, start, mid;
         end = InnerList.Count - 1;
@@ -166,7 +166,25 @@ public class Collection : CollectionBase
         }
         return -1;
     }
-    
+
+    public int RecursiveBinarySearch(int search, int lower, int upper)
+    {
+        if (lower <= upper)
+        {
+            int mid;
+            mid = (upper + lower) / 2;
+
+            if (search < (int)InnerList[mid])
+                return RecursiveBinarySearch(search, lower, mid - 1);
+            else if (search == (int)InnerList[mid])
+                return mid;
+            else
+                return RecursiveBinarySearch(search, mid + 1, upper);
+        }
+        else
+            return -1;
+    }
+
     #endregion
 
     #region Helper Methods
