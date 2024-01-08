@@ -1,5 +1,4 @@
-﻿using System.Runtime.ExceptionServices;
-using Random = CustomRandomNumberGenerator.Random;
+﻿using Random = CustomRandomNumberGenerator.Random;
 
 namespace Stack;
 
