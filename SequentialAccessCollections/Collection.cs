@@ -6,27 +6,46 @@ namespace SequentialAccessCollections;
 
 public class Collection : CollectionBase
 {
-
+    /// <summary>
+    /// Add a new item to the collection
+    /// </summary>
+    /// <param name="item">The item to add</param>
     public void Add(object item)
     {
         InnerList.Add(item);
     }
 
+    /// <summary>
+    /// Removes an item from the collection
+    /// </summary>
+    /// <param name="item">The item to remove</param>
     public void Remove(object item)
     {
         InnerList.Remove(item);
     }
 
+    /// <summary>
+    /// Clears the collection
+    /// </summary>
     public new void Clear()
     {
         InnerList.Clear();
     }
 
+    /// <summary>
+    /// Counts the number of items in the collection
+    /// </summary>
+    /// <returns>The number of items in the collection</returns>
     public new int Count()
     {
         return InnerList.Count;
     }
 
+    /// <summary>
+    /// Retrieves the specified item from the collection
+    /// </summary>
+    /// <param name="item">The item to retrieve</param>
+    /// <returns></returns>
     public object Get(object item)
     {
         int index = InnerList.IndexOf(item);
@@ -35,6 +54,9 @@ public class Collection : CollectionBase
 
     #region Sorting Algorithms
 
+    /// <summary>
+    /// Sorts the collection using the Bubble Sort Algorithm
+    /// </summary>
     public void BubbleSort()
     {
         int upper = Count() - 1;
@@ -54,6 +76,9 @@ public class Collection : CollectionBase
         }
     }
 
+    /// <summary>
+    /// Sorts the collection using the Selection Sort Algorithm
+    /// </summary>
     public void SelectionSort()
     {
         int upper = Count() - 1;
@@ -76,9 +101,15 @@ public class Collection : CollectionBase
         }
     }
 
+    /// <summary>
+    /// Sorts the collection using the Shell Sort Algorithm
+    /// </summary>
     public void ShellSort()
     {
-        int i, j, increment, temp;
+        int i,
+            j,
+            increment,
+            temp;
         increment = 3;
 
         while (increment > 0)
@@ -106,11 +137,17 @@ public class Collection : CollectionBase
         }
     }
 
+    /// <summary>
+    /// Sorts the collections using the Quick Sort Algorithm
+    /// </summary>
     public void QuickSort()
     {
         QuickSortHelper(0, Count() - 1);
     }
 
+    /// <summary>
+    /// Sorts the collections using the Merge Sort Algorithm
+    /// </summary>
     public void MergeSort()
     {
         if (Count() > 1)
@@ -140,6 +177,9 @@ public class Collection : CollectionBase
 
     #region Search Algorithms
 
+    /// <summary>
+    /// Searches the collection for the specified item using the sequential search algorithm
+    /// </summary>
     public bool SequentialSearch(int sValue)
     {
         for (int i = 0; i < InnerList.Count - 1; i++)
@@ -148,9 +188,16 @@ public class Collection : CollectionBase
         return false;
     }
 
+    /// <summary>
+    /// Searches for the specified item using the BinarySearch algorithm
+    /// </summary>
+    /// <param name="value">The item to search for</param>
+    /// <returns>The index of the item if found in the collection. -1 if otherwise.</returns>
     public int BinarySearch(int value)
     {
-        int end, start, mid;
+        int end,
+            start,
+            mid;
         end = InnerList.Count - 1;
         start = 0;
 
@@ -167,6 +214,13 @@ public class Collection : CollectionBase
         return -1;
     }
 
+    /// <summary>
+    /// Searches for the specified item using the Recursive Binary Search algorithm
+    /// </summary>
+    /// <param name="search">The item to search for</param>
+    /// <param name="lower">The lower bound of the search</param>
+    /// <param name="upper">The upper bound of the search</param>
+    /// <returns>The index position of the searched item</returns>
     public int RecursiveBinarySearch(int search, int lower, int upper)
     {
         if (lower <= upper)
@@ -256,5 +310,4 @@ public class Collection : CollectionBase
     }
 
     #endregion
-
 }
