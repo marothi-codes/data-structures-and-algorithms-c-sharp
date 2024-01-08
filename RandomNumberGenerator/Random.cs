@@ -26,4 +26,28 @@ public class Random
         uint randomValue = BitConverter.ToUInt32(byteArray, 0);
         return (float)randomValue / uint.MaxValue; // Normalize to [0, 1]
     }
+
+    public static int NextInt32(int minValue, int maxValue)
+    {
+        var scale = (double)ulong.MaxValue;
+        var range = (long)maxValue - minValue;
+        var randomValue = NextDouble() * scale;
+        return (int)(minValue + (long)(range * randomValue / scale));
+    }
+
+    public static double NextDouble(double minValue, double maxValue)
+    {
+        var scale = (double)ulong.MaxValue;
+        var range = maxValue - minValue;
+        var randomValue = NextDouble() * scale;
+        return minValue + range * randomValue / scale;
+    }
+
+    public static float NextSingle(float minValue, float maxValue)
+    {
+        var scale = (float)uint.MaxValue;
+        var range = maxValue - minValue;
+        var randomValue = NextSingle() * scale;
+        return minValue + range * randomValue / scale;
+    }
 }
