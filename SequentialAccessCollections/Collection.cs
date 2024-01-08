@@ -33,6 +33,8 @@ public class Collection : CollectionBase
         return InnerList[index];
     }
 
+    #region Sorting Algorithms
+
     public void BubbleSort()
     {
         int upper = Count() - 1;
@@ -134,6 +136,41 @@ public class Collection : CollectionBase
         }
     }
 
+    #endregion
+
+    #region Search Algorithms
+
+    public bool SequentialSearch(int sValue)
+    {
+        for (int i = 0; i < InnerList.Count - 1; i++)
+            if ((int)InnerList[i] == sValue)
+                return true;
+        return false;
+    }
+
+    public int BinarySearch (int value)
+    {
+        int end, start, mid;
+        end = InnerList.Count - 1;
+        start = 0;
+
+        while (start <= end)
+        {
+            mid = (end + start) / 2;
+            if ((int)InnerList[mid] == value)
+                return mid;
+            else if (value < (int)InnerList[mid])
+                end = mid - 1;
+            else
+                start = mid + 1;
+        }
+        return -1;
+    }
+    
+    #endregion
+
+    #region Helper Methods
+
     private void Merge(Collection left, Collection right)
     {
         InnerList.Clear();
@@ -199,5 +236,7 @@ public class Collection : CollectionBase
         InnerList[i] = InnerList[j];
         InnerList[j] = temp;
     }
+
+    #endregion
 
 }
