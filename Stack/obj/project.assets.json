@@ -11,16 +11,6 @@
         "runtime": {
           "bin/placeholder/RandomNumberGenerator.dll": {}
         }
-      },
-      "SequentialAccessCollections/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/SequentialAccessCollections.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SequentialAccessCollections.dll": {}
-        }
       }
     }
   },
@@ -29,17 +19,11 @@
       "type": "project",
       "path": "../RandomNumberGenerator/RandomNumberGenerator.csproj",
       "msbuildProject": "../RandomNumberGenerator/RandomNumberGenerator.csproj"
-    },
-    "SequentialAccessCollections/1.0.0": {
-      "type": "project",
-      "path": "../SequentialAccessCollections/SequentialAccessCollections.csproj",
-      "msbuildProject": "../SequentialAccessCollections/SequentialAccessCollections.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "RandomNumberGenerator >= 1.0.0",
-      "SequentialAccessCollections >= 1.0.0"
+      "RandomNumberGenerator >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -48,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/ShellSort/ShellSort.csproj",
-      "projectName": "ShellSort",
-      "projectPath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/ShellSort/ShellSort.csproj",
+      "projectUniqueName": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Stack/Stack.csproj",
+      "projectName": "Stack",
+      "projectPath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Stack/Stack.csproj",
       "packagesPath": "/Users/marothim/.nuget/packages/",
-      "outputPath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/ShellSort/obj/",
+      "outputPath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Stack/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/marothim/.nuget/NuGet/NuGet.Config"
@@ -70,9 +54,6 @@
           "projectReferences": {
             "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/RandomNumberGenerator/RandomNumberGenerator.csproj": {
               "projectPath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/RandomNumberGenerator/RandomNumberGenerator.csproj"
-            },
-            "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SequentialAccessCollections/SequentialAccessCollections.csproj": {
-              "projectPath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SequentialAccessCollections/SequentialAccessCollections.csproj"
             }
           }
         }
