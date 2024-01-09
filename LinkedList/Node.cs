@@ -1,11 +1,14 @@
-﻿using System;
-namespace LinkedList
+﻿#nullable disable
+
+namespace LinkedList;
+
+public class Node<T>
 {
-	public class Node
+	public T Value { get; set; }
+	public Node<T> Next { get; set; }
+
+	public Node(T value)
 	{
-		public Node()
-		{
-		}
+		Value = value;
 	}
 }
-
