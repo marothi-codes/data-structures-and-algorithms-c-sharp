@@ -2,16 +2,28 @@
 
 namespace Dictionary;
 
-public class DictionaryImplementation<T, U>
+public class DictionaryImplementation<TKey, TValue>
 {
-    private readonly List<KeyValuePair<T, U>> _list;
+    /// <summary>
+    /// The list that stores the key-value pairs.
+    /// </summary>
+    private readonly List<KeyValuePair<TKey, TValue>> _list;
 
+    /// <summary>
+    /// Initializes a new instance of the DictionaryImplementation class.
+    /// </summary>
     public DictionaryImplementation()
     {
-        _list = new List<KeyValuePair<T, U>>();
+        _list = new List<KeyValuePair<TKey, TValue>>();
     }
 
-    public void Add(T key, U value)
+    /// <summary>
+    /// Adds a key-value pair to the dictionary.
+    /// </summary>
+    /// <param name="key">The key of the element to add.</param>
+    /// <param name="value">The value of the element to add.</param>
+    /// <exception cref="ArgumentException">An element with the same key already exists in the dictionary.</exception>
+    public void Add(TKey key, TValue value)
     {
         if (ContainsKey(key))
         {
@@ -19,37 +31,52 @@ public class DictionaryImplementation<T, U>
                 "An element with the same key already exists in the dictionary."
             );
         }
-        _list.Add(new KeyValuePair<T, U> { Key = key, Value = value });
+        _list.Add(new KeyValuePair<TKey, TValue> { Key = key, Value = value });
     }
 
-    public void Remove(T key)
+    /// <summary>
+    /// Removes the element with the specified key from the dictionary.
+    /// </summary>
+    /// <param name="key">The key of the element to remove.</param>
+    /// <exception cref="KeyNotFoundException">The key does not exist in the dictionary.</exception>
+    public void Remove(TKey key)
     {
         var item =
-            _list.SingleOrDefault(x => EqualityComparer<T>.Default.Equals(x.Key, key))
+            _list.SingleOrDefault(x => EqualityComparer<TKey>.Default.Equals(x.Key, key))
             ?? throw new KeyNotFoundException("The key does not exist in the dictionary.");
         _list.Remove(item);
     }
 
-    public U this[T key]
+    /// <summary>
+    /// Gets or sets the value associated with the specified key.
+    /// </summary>
+    /// <param name="key">The key of the value to get or set.</param>
+    /// <exception cref="KeyNotFoundException">The key does not exist in the dictionary.</exception>
+    public TValue this[TKey key]
     {
         get
         {
             var item =
-                _list.SingleOrDefault(x => EqualityComparer<T>.Default.Equals(x.Key, key))
+                _list.SingleOrDefault(x => EqualityComparer<TKey>.Default.Equals(x.Key, key))
                 ?? throw new KeyNotFoundException("The key does not exist in the dictionary.");
             return item.Value;
         }
         set
         {
             var item =
-                _list.SingleOrDefault(x => EqualityComparer<T>.Default.Equals(x.Key, key))
+                _list.SingleOrDefault(x => EqualityComparer<TKey>.Default.Equals(x.Key, key))
                 ?? throw new KeyNotFoundException("The key does not exist in the dictionary.");
             item.Value = value;
         }
     }
 
-    public bool ContainsKey(T key)
+    /// <summary>
+    /// Determines whether the dictionary contains an element with the specified key.
+    /// </summary>
+    /// <param name="key">The key to locate in the dictionary.</param>
+    /// <returns>true if the dictionary contains an element with the key; otherwise, false.</returns>
+    public bool ContainsKey(TKey key)
     {
-        return _list.Any(x => EqualityComparer<T>.Default.Equals(x.Key, key));
+        return _list.Any(x => EqualityComparer<TKey>.Default.Equals(x.Key, key));
     }
 }
