@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashtable", "Hashtable\Hash
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{833E5876-EC0B-4006-9E55-F059F74395A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{7D650101-0F24-4766-ACD1-8D1A3253609A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{833E5876-EC0B-4006-9E55-F059F74395A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{833E5876-EC0B-4006-9E55-F059F74395A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{833E5876-EC0B-4006-9E55-F059F74395A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D650101-0F24-4766-ACD1-8D1A3253609A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D650101-0F24-4766-ACD1-8D1A3253609A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D650101-0F24-4766-ACD1-8D1A3253609A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D650101-0F24-4766-ACD1-8D1A3253609A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
