@@ -3,7 +3,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        BinarySearchTree<int> bst = new BinarySearchTree<int>();
+        BinarySearchTree<int> bst = new();
 
         // Inserting values into the BST
         bst.Insert(50);
