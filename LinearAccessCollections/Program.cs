@@ -8,7 +8,7 @@ class Program
         Console.WriteLine(users[0]);
         Console.WriteLine(users[1]);
 
-        var myName = new Name("Marothi", "Mabutho", "Mahlake");
+        var myName = new Name("Mabutho", "Marothi", "Mahlake");
         string fullName,
             initials;
         fullName = myName.ToString();

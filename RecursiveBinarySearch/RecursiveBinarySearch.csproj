@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SequentialAccessCollections\SequentialAccessCollections.csproj" />
-    <ProjectReference Include="..\RandomNumberGenerator\RandomNumberGenerator.csproj" />
+    <ProjectReference Include="..\SequentialAccessCollections\SequentialAccessCollections.csproj">
+      <Targets></Targets>
+      <OutputItemType></OutputItemType>
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
+    </ProjectReference>
+    <ProjectReference Include="..\RandomNumberGenerator\RandomNumberGenerator.csproj">
+      <Targets></Targets>
+      <OutputItemType></OutputItemType>
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
+    </ProjectReference>
   </ItemGroup>
 </Project>

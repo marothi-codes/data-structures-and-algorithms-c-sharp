@@ -1,0 +1,15 @@
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/bin/Debug/net6.0/FindMaxNum
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/bin/Debug/net6.0/FindMaxNum.deps.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/bin/Debug/net6.0/FindMaxNum.runtimeconfig.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/bin/Debug/net6.0/FindMaxNum.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/bin/Debug/net6.0/FindMaxNum.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/FindMaxNum.csproj.AssemblyReference.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/FindMaxNum.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/FindMaxNum.AssemblyInfoInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/FindMaxNum.AssemblyInfo.cs
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/FindMaxNum.csproj.CoreCompileInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/FindMaxNum.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/refint/FindMaxNum.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/FindMaxNum.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/FindMaxNum.genruntimeconfig.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/obj/Debug/net6.0/ref/FindMaxNum.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "doOKVvYOI2R2+Vn3kJnnWntrZfDGks8LAgKvHhidN0SxOs5um2/echL/xx8yQpAxLYys1UmGsxzMZRid06TCdw==",
+  "dgSpecHash": "9zP7gENAf8KwEu1qAAXCz4SE8A1qRNhgsgUgtpAznPKnIaLqD7eYbCwp3AKwhq5QYneaBMHPFCViJzh3de4bdw==",
   "success": true,
   "projectFilePath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/ShellSort/ShellSort.csproj",
   "expectedPackageFiles": [],

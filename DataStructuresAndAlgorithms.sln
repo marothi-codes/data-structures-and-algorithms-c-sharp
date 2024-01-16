@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets", "Sets\Sets.csproj", "{930DE953-138D-4B81-80E7-44F51FE67D1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxNum", "FindMaxNum\FindMaxNum.csproj", "{6A645340-8336-425E-87EC-2CE4D81DA5AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{930DE953-138D-4B81-80E7-44F51FE67D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{930DE953-138D-4B81-80E7-44F51FE67D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{930DE953-138D-4B81-80E7-44F51FE67D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A645340-8336-425E-87EC-2CE4D81DA5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A645340-8336-425E-87EC-2CE4D81DA5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A645340-8336-425E-87EC-2CE4D81DA5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A645340-8336-425E-87EC-2CE4D81DA5AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

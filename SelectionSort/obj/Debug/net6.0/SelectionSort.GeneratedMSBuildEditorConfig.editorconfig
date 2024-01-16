@@ -9,5 +9,3 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SelectionSort
 build_property.ProjectDir = /Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SelectionSort/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 

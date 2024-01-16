@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wbTdqtPJm9XJcg40MbgmRlMGgrJjpPZqIOMRZIAKHsJlqw7dP3eg9P1aJ1gn5EBWIYetM/HK8glPa2yBU8vYSQ==",
+  "dgSpecHash": "ocrmSxW3vOjGQA+oiz8Wby9yQIhzrFrxPcblmY5Mo//pjEld2jwuqjxJIslNj8oy8kYFp/3JTyf39a54uTdK9g==",
   "success": true,
   "projectFilePath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Stack/Stack.csproj",
   "expectedPackageFiles": [],
