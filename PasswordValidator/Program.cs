@@ -10,7 +10,9 @@ class Program
         string password = Console.ReadLine();
 
         if (IsPasswordNullOrEmpty(password))
-            Console.WriteLine("The password is required");
+        {
+            Console.WriteLine("The password is required, an empty password or space character is not acceptable.");
+        }
         else if (password.Length < 8)
         {
             Console.WriteLine("Your password needs to be 8 characters or longer.");
@@ -30,15 +32,14 @@ class Program
 
     static bool IsPasswordValid(string password)
     {
-        return password.Any(char.IsUpper) &&
-            password.Any(char.IsLower) &&
-            password.Any(char.IsLetterOrDigit) &&
-            password.Any(char.IsSymbol);
+        return password.Any(char.IsUpper) && // Uppercase check
+            password.Any(char.IsLower) && // Lowercase check
+            password.Any(char.IsLetterOrDigit) && // Alphanumeric char check
+            password.Any(char.IsAscii); // Special char check
     }
 
     static bool IsPasswordNullOrEmpty(string password)
     {
-
         return string.IsNullOrEmpty(password) || string.IsNullOrWhiteSpace(password);
     }
 }
