@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordValidator", "Passwo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams", "Anagrams\Anagrams.csproj", "{D1D12778-F684-4A89-A6C1-1BC4D59F3816}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromes", "Palindromes\Palindromes.csproj", "{913B51D9-1538-45D9-BC94-F6BE4105EE59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{D1D12778-F684-4A89-A6C1-1BC4D59F3816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D12778-F684-4A89-A6C1-1BC4D59F3816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D12778-F684-4A89-A6C1-1BC4D59F3816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913B51D9-1538-45D9-BC94-F6BE4105EE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913B51D9-1538-45D9-BC94-F6BE4105EE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913B51D9-1538-45D9-BC94-F6BE4105EE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913B51D9-1538-45D9-BC94-F6BE4105EE59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

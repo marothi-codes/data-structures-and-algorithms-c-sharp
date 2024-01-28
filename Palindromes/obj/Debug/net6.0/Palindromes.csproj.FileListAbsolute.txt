@@ -1,0 +1,15 @@
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/bin/Debug/net6.0/Palindromes
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/bin/Debug/net6.0/Palindromes.deps.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/bin/Debug/net6.0/Palindromes.runtimeconfig.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/bin/Debug/net6.0/Palindromes.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/bin/Debug/net6.0/Palindromes.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/Palindromes.csproj.AssemblyReference.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/Palindromes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/Palindromes.AssemblyInfoInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/Palindromes.AssemblyInfo.cs
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/Palindromes.csproj.CoreCompileInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/Palindromes.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/refint/Palindromes.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/Palindromes.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/Palindromes.genruntimeconfig.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Palindromes/obj/Debug/net6.0/ref/Palindromes.dll
