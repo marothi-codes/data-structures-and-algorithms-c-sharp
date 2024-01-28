@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jxaThhmO9ZovmNLJMqYiogQNu4fN3T7jOq1PHvtO9phZg5YWUuHkvXP0Uz5u8wcdsxftBsmpNT0AJLaQvd4sSw==",
+  "dgSpecHash": "d0JEW/5bbzR9BTBAptN4xOD0tSFBKWwujI3jFeZQpFaBnlQks3Hd51H9FsjLdN+jxXLI5uZpvEpCYP5FU2SoNw==",
   "success": true,
   "projectFilePath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/FindMaxNum/FindMaxNum.csproj",
   "expectedPackageFiles": [],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ARVw48/LmBlxalKFhDW7lOaItOf/2Hm1fcqAXvibrvAzrcXlp4cqOu/6fRK2cQlUB2YxFzIpODrD1e6xAQs2Aw==",
+  "dgSpecHash": "2Ei/c6LdY6eWPOdkCfAdFA2MvOlbpSIq+RgRn6WjDBKGtnmGYI5zNFsBa5IQvvt4pXe0ygK1pLN9wmLKUisQ3A==",
   "success": true,
   "projectFilePath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/SelectionSort/SelectionSort.csproj",
   "expectedPackageFiles": [],

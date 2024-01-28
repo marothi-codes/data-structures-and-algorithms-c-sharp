@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qx15IdaYnAB4gdAqTn2M7DHo8u52zQK0Of6oJyA52pcQto6wO875B25VkdH6G6giaTrQdVM7Ugs4j1BCkUcYCQ==",
+  "dgSpecHash": "WeSJd/ozTmif01ZGNTNwwS+WPKNFyqhYOz4MrszH73dZPDsR613ZIKcvXrnR9CES3Pg7T+sc1b3OVyiwLQq3AA==",
   "success": true,
   "projectFilePath": "/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/BubbleSort/BubbleSort.csproj",
   "expectedPackageFiles": [],

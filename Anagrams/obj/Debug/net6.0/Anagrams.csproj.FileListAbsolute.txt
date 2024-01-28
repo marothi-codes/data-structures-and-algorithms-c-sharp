@@ -1,0 +1,15 @@
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/bin/Debug/net6.0/Anagrams
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/bin/Debug/net6.0/Anagrams.deps.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/bin/Debug/net6.0/Anagrams.runtimeconfig.json
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/bin/Debug/net6.0/Anagrams.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/bin/Debug/net6.0/Anagrams.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/Anagrams.csproj.AssemblyReference.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/Anagrams.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/Anagrams.AssemblyInfoInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/Anagrams.AssemblyInfo.cs
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/Anagrams.csproj.CoreCompileInputs.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/Anagrams.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/refint/Anagrams.dll
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/Anagrams.pdb
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/Anagrams.genruntimeconfig.cache
+/Users/marothim/Developer/Practice/dotnet/CLI/DataStructuresAndAlgorithms/Anagrams/obj/Debug/net6.0/ref/Anagrams.dll

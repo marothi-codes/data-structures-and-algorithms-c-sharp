@@ -11,7 +11,10 @@ class Program
 
         if (IsPasswordNullOrEmpty(password))
         {
-            Console.WriteLine("The password is required, an empty password or space character is not acceptable.");
+            Console.WriteLine(
+                "The password is required, an empty password " +
+                "or space character is not acceptable."
+            );
         }
         else if (password.Length < 8)
         {
@@ -19,7 +22,10 @@ class Program
         }
         else if (IsPasswordValid(password))
         {
-            Console.WriteLine("The password is valid as contains letters, numbers and special characters. Well Done!");
+            Console.WriteLine(
+                "The password is valid as contains letters, " +
+                "numbers and special characters. Well Done!"
+            );
         }
         else
         {
